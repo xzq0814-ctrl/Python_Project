@@ -1,0 +1,30 @@
+# 忽略 Python 编译产生的缓存文件
+__pycache__/
+*.py[cod]
+
+# 忽略虚拟环境文件夹（如果你有的话，通常叫 venv 或 env）
+venv/
+env/
+
+# 忽略编辑器产生的本地配置（如 VS Code, PyCharm）
+.vscode/
+.idea/
+
+# 忽略包含密码或 API Key 的本地配置文件
+.env
+config_local.py
+# 忽略不需要的文件
+ai大模型/ai_tokens.py
+ai大模型/gradio_part1.py
+ai大模型/ai_chat1.py
+Py_learn/
+# 2. 强行进入 Py_learn 文件夹
+!Py_learn/
+# 3. 忽略 Py_learn 下面所有的内容
+Py_learn/*
+# 4. 强行包含你想要的子文件夹
+!Py_learn/面向对象编程/
+项目实战/000/ppt爬取.py
+项目实战/111/批量爬取视频.py
+项目实战/111/小说爬取.py
+main.py
